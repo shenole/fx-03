@@ -1,0 +1,80 @@
+// IMPORTS ==========
+
+// FONT IMPORTS
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+// CSS rules to use: font-family: 'Shrikhand', cursive;
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// CSS rules to use: font-family: 'Nunito', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:700');
+// CSS rules to use: font-family: 'Libre Baskerville', serif;
+
+// VARIABLE IMPORTS
+@import "variables";
+@import "mixins";
+
+// GENERAL
+.slate-grey {
+  background-color: $slate;
+}
+
+.charcoal-grey {
+  background-color: $charcoal;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-left-padding {
+  padding-left: 0;
+}
+
+.no-right-padding {
+  padding-right: 0;
+}
+
+.inline {
+  display: flex;
+}
+
+.green {
+  background-color: green;
+}
+
+.pic {
+  background-color: blue;
+}
+
+.ride {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.dashed {
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+}
+
+//header
+.header {
+  height: 200px;
+}
+
+//banner image
+.side-bar-one {
+  background-color: $yellowCab;
+}
+
+//content section 1
+
+//title band
+
+//content section 2
+
+//footer
+.footer {
+  height: 80px;
+}
