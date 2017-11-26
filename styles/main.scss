@@ -13,6 +13,14 @@
 @import "mixins";
 
 // GENERAL
+body {
+  background-color: $slate;
+}
+.main {
+  padding: 0;
+  margin: 0;
+}
+
 .slate-grey {
   background-color: $slate;
 }
@@ -23,6 +31,10 @@
 
 .bordered-pic {
   border: 6px solid $lgrey;
+}
+
+.content-section-one {
+  margin-top: 70px;
 }
 
 .no-margin {
@@ -47,14 +59,19 @@
 
 .green {
   background-color: green;
+  display: flex;
 }
 
 .pic {
   background-color: blue;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
 }
 
 .ride {
   background-color: red;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
 }
 
 .orange {
