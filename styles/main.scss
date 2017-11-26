@@ -21,6 +21,10 @@
   background-color: $charcoal;
 }
 
+.bordered-pic {
+  border: 6px solid $lgrey;
+}
+
 .no-margin {
   margin: 0;
 }
@@ -35,6 +39,10 @@
 
 .inline {
   display: flex;
+}
+
+.purple {
+  background-color: purple;
 }
 
 .green {
