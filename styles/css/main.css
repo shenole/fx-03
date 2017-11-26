@@ -5,6 +5,10 @@ body {
   background-color: #222222;
 }
 
+.row {
+  max-width: 75rem;
+}
+
 .main {
   padding: 0;
   margin: 0;
@@ -30,16 +34,9 @@ body {
   margin: 0;
 }
 
-.no-left-padding {
-  padding-left: 0;
-}
-
-.no-right-padding {
-  padding-right: 0;
-}
-
-.inline {
-  display: flex;
+p {
+  font-family: 'Nunito', sans-serif;
+  color: #f2f2f2;
 }
 
 .purple {
@@ -78,6 +75,14 @@ body {
 
 .side-bar-one {
   background-color: #ff9900;
+  padding: 4.75rem 3rem;
+}
+
+h2 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #f2f2f2;
 }
 
 .footer {

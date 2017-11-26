@@ -16,6 +16,11 @@
 body {
   background-color: $slate;
 }
+
+.row {
+  max-width: 75rem;
+}
+
 .main {
   padding: 0;
   margin: 0;
@@ -41,16 +46,9 @@ body {
   margin: 0;
 }
 
-.no-left-padding {
-  padding-left: 0;
-}
-
-.no-right-padding {
-  padding-right: 0;
-}
-
-.inline {
-  display: flex;
+p {
+  font-family: 'Nunito', sans-serif;
+  color: $mist;
 }
 
 .purple {
@@ -91,7 +89,10 @@ body {
 //banner image
 .side-bar-one {
   background-color: $yellowCab;
+  padding: 4.75rem 3rem;
 }
+
+@include titleTwo;
 
 //content section 1
 

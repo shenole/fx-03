@@ -2,3 +2,12 @@
   font-family: 'Shrikhand', cursive;
   color: $mist;
 }
+
+@mixin titleTwo {
+  h2 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: $mist;
+  }
+}
