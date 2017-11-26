@@ -11,3 +11,13 @@
     color: $mist;
   }
 }
+
+@mixin titleFour {
+  h4 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+    word-spacing: .25rem;
+    text-transform: uppercase;
+    color: $mist;
+  }
+}

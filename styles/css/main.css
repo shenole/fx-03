@@ -27,16 +27,48 @@ body {
 }
 
 .content-section-one {
-  margin-top: 70px;
+  margin-top: 120px;
 }
 
 .no-margin {
   margin: 0;
 }
 
-p {
+.button {
+  border-radius: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Nunito', sans-serif;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+h2 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+h4 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.5rem;
+  word-spacing: .25rem;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+p, a {
   font-family: 'Nunito', sans-serif;
   color: #f2f2f2;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff9900;
 }
 
 .purple {
@@ -44,20 +76,18 @@ p {
 }
 
 .green {
-  background-color: green;
   display: flex;
 }
 
 .pic {
-  background-color: blue;
   flex: 1 1 auto;
   flex-wrap: wrap;
 }
 
 .ride {
-  background-color: red;
   flex: 1 1 auto;
   flex-wrap: wrap;
+  padding: 0 2rem;
 }
 
 .orange {
@@ -65,6 +95,7 @@ p {
 }
 
 .dashed {
+  border-color: #f2f2f2;
   border-top-style: dashed;
   border-bottom-style: dashed;
 }
@@ -78,11 +109,29 @@ p {
   padding: 4.75rem 3rem;
 }
 
-h2 {
-  font-family: 'Shrikhand', cursive;
-  font-size: 3rem;
-  text-transform: uppercase;
-  color: #f2f2f2;
+ul {
+  list-style-type: none;
+  margin-top: 40px;
+  margin-left: 0;
+}
+
+li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+li::before {
+  content: "\2022";
+  color: #ff9900;
+  margin-right: 8px;
+}
+
+.title-band {
+  margin-top: 90px;
+}
+
+.content-section-two {
+  margin-top: 30px;
 }
 
 .footer {

@@ -39,16 +39,36 @@ body {
 }
 
 .content-section-one {
-  margin-top: 70px;
+  margin-top: 120px;
 }
 
 .no-margin {
   margin: 0;
 }
 
-p {
+.button {
+  border-radius: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Nunito', sans-serif;
+  text-transform: uppercase;
+  color: $mist;
+}
+
+@include titleTwo;
+@include titleFour;
+
+p, a {
   font-family: 'Nunito', sans-serif;
   color: $mist;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a:hover{
+  color: $yellowCab;
 }
 
 .purple {
@@ -56,20 +76,18 @@ p {
 }
 
 .green {
-  background-color: green;
   display: flex;
 }
 
 .pic {
-  background-color: blue;
   flex: 1 1 auto;
   flex-wrap: wrap;
 }
 
 .ride {
-  background-color: red;
   flex: 1 1 auto;
   flex-wrap: wrap;
+  padding: 0 2rem;
 }
 
 .orange {
@@ -77,6 +95,7 @@ p {
 }
 
 .dashed {
+  border-color: $mist;
   border-top-style: dashed;
   border-bottom-style: dashed;
 }
@@ -92,13 +111,33 @@ p {
   padding: 4.75rem 3rem;
 }
 
-@include titleTwo;
-
 //content section 1
+ul {
+  list-style-type: none;
+  margin-top: 40px;
+  margin-left: 0;
+}
+
+li {
+  padding: 8px 0;
+  border-bottom: 1px solid $mist;
+}
+
+li::before {
+  content: "\2022";
+  color: $yellowCab;
+  margin-right: 8px;
+}
 
 //title band
+.title-band {
+  margin-top: 90px;
+}
 
 //content section 2
+.content-section-two {
+  margin-top: 30px;
+}
 
 //footer
 .footer {
