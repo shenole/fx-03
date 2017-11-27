@@ -28,6 +28,14 @@ body {
   background-color: #111111;
 }
 
+#taxi {
+  color: #777777;
+}
+
+#park {
+  color: #ff9900;
+}
+
 .bordered-pic {
   border: 6px solid #777777;
 }
@@ -48,6 +56,12 @@ body {
 
 .flex {
   display: flex;
+}
+
+h1 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 3.75rem;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -78,10 +92,6 @@ a:hover {
   color: #ff9900;
 }
 
-.purple {
-  background-color: purple;
-}
-
 .green {
   display: flex;
 }
@@ -97,10 +107,6 @@ a:hover {
   padding: 0 2rem;
 }
 
-.orange {
-  background-color: orange;
-}
-
 .dashed {
   border-color: #f2f2f2;
   border-top-style: dashed;
@@ -108,7 +114,8 @@ a:hover {
 }
 
 .header {
-  height: 200px;
+  height: 13rem;
+  padding: 3.75rem 0;
 }
 
 .side-bar-one {

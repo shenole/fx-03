@@ -1,6 +1,9 @@
 @mixin titleOne {
-  font-family: 'Shrikhand', cursive;
-  color: $mist;
+  h1 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 3.75rem;
+    text-transform: uppercase;
+  }
 }
 
 @mixin titleTwo {

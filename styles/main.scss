@@ -40,6 +40,14 @@ body {
   background-color: $charcoal;
 }
 
+#taxi {
+  color: $lgrey;
+}
+
+#park {
+  color: $yellowCab;
+}
+
 .bordered-pic {
   border: 6px solid $lgrey;
 }
@@ -62,6 +70,7 @@ body {
   display: flex;
 }
 
+@include titleOne;
 @include titleTwo;
 @include titleFour;
 
@@ -76,10 +85,6 @@ p, a {
 
 a:hover{
   color: $yellowCab;
-}
-
-.purple {
-  background-color: purple;
 }
 
 .green {
@@ -97,10 +102,6 @@ a:hover{
   padding: 0 2rem;
 }
 
-.orange {
-  background-color: orange;
-}
-
 .dashed {
   border-color: $mist;
   border-top-style: dashed;
@@ -109,7 +110,8 @@ a:hover{
 
 //header
 .header {
-  height: 200px;
+  height: 13rem;
+  padding: 3.75rem 0;
 }
 
 //banner image
