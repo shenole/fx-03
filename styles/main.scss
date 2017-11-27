@@ -13,7 +13,13 @@
 @import "mixins";
 
 // GENERAL
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
+  width: 100%;
   background-color: $slate;
 }
 
@@ -53,6 +59,10 @@ body {
   font-family: 'Nunito', sans-serif;
   text-transform: uppercase;
   color: $mist;
+}
+
+.flex {
+  display: flex;
 }
 
 @include titleTwo;
@@ -134,6 +144,23 @@ li::before {
   margin-top: 90px;
 }
 
+.pad-it {
+  padding-left: 15px;
+}
+
+.services {
+  flex-wrap: wrap;
+}
+
+.serv-but {
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.button-two {
+  margin-top: 2.25rem;
+}
+
 //content section 2
 .content-section-two {
   margin-top: 30px;
@@ -142,4 +169,33 @@ li::before {
 //footer
 .footer {
   height: 80px;
+}
+
+//MEDIA QUERIES ==========
+@media only screen and(max-width: 1024px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  .row {
+    padding: 0 15px;
+  }
+}
+
+@media only screen and(max-width: 1152px) {
+  .side-bar-one {
+    padding: 1.25rem 1.5rem;
+  }
+}
+
+@media only screen and(max-width: 1023px) {
+  .margin-thirty {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and(max-width: 639px) {
+  .serv-but {
+    text-align: left;
+  }
 }

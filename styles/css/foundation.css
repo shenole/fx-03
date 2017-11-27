@@ -1185,7 +1185,7 @@ select {
       display: block !important; } }
 
 .button {
-  display: inline-block;
+/*  display: inline-block;*/
   vertical-align: middle;
   margin: 0 0 1rem 0;
   font-family: inherit;
