@@ -436,7 +436,7 @@ html {
   font-size: 100%; }
 
 *,
-*::before,
+/* *::before, */
 *::after {
   box-sizing: inherit; }
 
@@ -619,11 +619,11 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #2ba6cb;
+  color: #f2f2f2;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #258faf; }
+    color: #f2f2f2; }
   a img {
     border: 0; }
 
