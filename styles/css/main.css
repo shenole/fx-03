@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Shrikhand");
 @import url("https://fonts.googleapis.com/css?family=Nunito");
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:700");
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
+  width: 100%;
   background-color: #222222;
 }
 
@@ -38,6 +44,10 @@ body {
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.flex {
+  display: flex;
 }
 
 h2 {
@@ -127,10 +137,54 @@ li::before {
   margin-top: 90px;
 }
 
+.pad-it {
+  padding-left: 15px;
+}
+
+.services {
+  flex-wrap: wrap;
+}
+
+.serv-but {
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.button-two {
+  margin-top: 2.25rem;
+}
+
 .content-section-two {
   margin-top: 30px;
 }
 
 .footer {
   height: 80px;
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    overflow-x: hidden;
+  }
+  .row {
+    padding: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 1152px) {
+  .side-bar-one {
+    padding: 1.25rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .margin-thirty {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .serv-but {
+    text-align: left;
+  }
 }
