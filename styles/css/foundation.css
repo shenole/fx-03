@@ -642,7 +642,7 @@ ol,
 dl {
   margin-bottom: 1rem;
   list-style-position: outside;
-  line-height: 1.6; }
+  line-height: 1; }
 
 li {
   font-size: inherit; }
@@ -2198,7 +2198,7 @@ a.button:hover, a.button:focus {
   content: '';
   border-bottom-width: 0;
   border-top-style: solid;
-  border-color: #2ba6cb transparent transparent;
+  border-color: #f2f2f2 transparent transparent;
   right: 5px;
   left: auto;
   margin-top: -3px; }
@@ -2210,7 +2210,7 @@ a.button:hover, a.button:focus {
 
 .dropdown.menu .is-active > a {
   background: transparent;
-  color: #2ba6cb; }
+  color: #f2f2f2; }
 
 .no-js .dropdown.menu ul {
   display: none; }
@@ -2403,8 +2403,8 @@ a.button:hover, a.button:focus {
   z-index: 1;
   display: none;
   min-width: 200px;
-  border: 1px solid #cacaca;
-  background: #fefefe; }
+  border: 1px solid #000000;
+  background: #777777; }
   .dropdown .is-dropdown-submenu a {
     padding: 0.7rem 1rem; }
   .is-dropdown-submenu .is-dropdown-submenu-parent > a::after {
